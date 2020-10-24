@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>SCUBA | OFFICIAL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".burger").click(function() {
+               $(".nav-list").toggle(".nav-list-appear"); 
+            });
+        });
+    </script>
+</head>
+<header>
+    <nav class="nav-menu">
+        <div style="margin-bottom: 1rem; margin-top: 1rem">
+            <a href="index.html" class="logo">🤿</a>
+        </div>
+        <div class="nav-color">
+                 <div class="burger-holder">
+                  <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            </div>
+            <ul class="nav-list">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About us</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="contact-form-top">
+        <h1 class="text-large">Contact Form</h1>
+        <h4><span class="title">Get in touch</span></h4>
+    </div>
+
+    <div class="contact-items">
+        <div class="contact-item">
+            <img src="Phone.svg" alt="phone icon">
+            <h1>Phone</h1>
+                <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu</p>
+
+            <p class="text-gray">+1-2545-3356</p>
+        </div>
+        <div class="contact-item">
+            <img src="email.svg" alt="email icon">
+            <h1>Email</h1>
+            <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu</p>
+            <p class="text-gray">contact@Scuba.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="location.svg" alt="location icon">
+            <h1>Location</h1>
+            <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p class="text-gray">Sunset Blvd. Stockton, South Dakota 993334</p>
+        </div>
+    </div>
+    <div class="contact-form">
+    <form action="post">
+    <div class="text-title">
+        <h1>Contact Us.</h1>
+    <p class="text-gray "><i>We will respond as soon as we can!</i></p>
+       <div class="underline"></div>
+        </div>
+        <div class="row-1">
+        <input type="text" placeholder="First Name*" required>
+        <input type="text" placeholder="Last Name*" required>
+        </div>
+        <input type="email" placeholder="Email address*" required>
+        <input type="text" placeholder="Subject*" required>
+        <textarea name="comment" placeholder="comments (max 250)" id="" cols="101" rows="10" maxlength="250" required></textarea>
+        <br>
+        <button class="btn-primary ">Submit form</button>
+    </form>
+    </div>
+</body>
+    <footer>
+        <div class="columns">
+            <div class="g1">
+                <p>Learn more</p>
+                <a href="about.html">
+                    <h3>About Us</h3>
+                </a>
+            </div>
+            <div class="g3">
+                <p>Read more</p>
+                <a href="#articles">
+                    <h3>Articles</h3>
+                </a>
+            </div>
+            <div class="g4">
+                <p>Contact us </p>
+                <a href="contact.html">
+                    <h3>Get in touch</h3>
+                </a>
+            </div>
+            <div class="g2">
+                <p>Social</p>
+                <h3>Get Connected</h3>
+                <div class="social">
+                    <a href="https://brand.linkedin.com/downloads"><img src="LI-In-Bug.png" alt="Linkedin Logo" width="40px" title="LinkedIn"></a>
+                    <a href="https://en.instagram-brand.com/"><img src="glyph-logo_May2016.png" alt="Instagram Icon" title="Instagram" width="40px"></a>
+                    <a href="https://docs.snapchat.com/docs/design-guidelines"><img src="snapchat-icon@2x.png" alt="Snapchat" width="40px"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
